@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MP3 Property Solutions, LLC</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#111;
+color:white;
+}
+
+header{
+background:#1b2b1b;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+color:#7fa36b;
+}
+
+nav{
+text-align:center;
+background:black;
+padding:10px;
+}
+
+nav a{
+color:#7fa36b;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:40px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+
+.hero h2{
+color:#7fa36b;
+font-size:36px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1a1a1a;
+padding:20px;
+border-left:4px solid #7fa36b;
+}
+
+.contact{
+background:#1b2b1b;
+padding:30px;
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+font-size:14px;
+}
+
+button{
+background:#7fa36b;
+border:none;
+padding:12px 20px;
+font-weight:bold;
+cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>MP3 Property Solutions, LLC</h1>
+<p>Home & Business Improvements in Richmond, VA</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+<h2>Reliable Property Improvement Services</h2>
+<p>Serving Richmond, Virginia with quality home and business improvement solutions.</p>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<p>
+MP3 Property Solutions, LLC provides professional home and business improvement services in Richmond, VA.
+We focus on quality work, reliability, and customer satisfaction. Whether you need repairs,
+upgrades, or general improvements, we are ready to help bring your property to the next level.
+</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Home Improvements</h3>
+<p>Repairs, upgrades, and improvements for residential properties.</p>
+</div>
+
+<div class="card">
+<h3>Business Improvements</h3>
+<p>Professional improvement solutions for offices and commercial spaces.</p>
+</div>
+
+<div class="card">
+<h3>Property Maintenance</h3>
+<p>Reliable maintenance services to keep your property in top shape.</p>
+</div>
+
+<div class="card">
+<h3>General Repairs</h3>
+<p>Fast and dependable repair services when you need them most.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact Us</h2>
+
+<p><strong>Phone:</strong> (559) 765-8351</p>
+
+<p><strong>Email:</strong> Mp3propertysolutions@gmail.com</p>
+
+<p><strong>Location:</strong> Richmond, VA</p>
+
+<br>
+
+<a href="tel:15597658351">
+<button>Call Now</button>
+</a>
+
+</section>
+
+<footer>
+© 2026 MP3 Property Solutions, LLC
+</footer>
+
+</body>
+</html>
